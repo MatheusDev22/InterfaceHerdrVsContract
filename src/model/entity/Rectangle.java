@@ -2,15 +2,15 @@ package model.entity;
 
 import model.enums.Color;
 
-public class Retangle extends Shape{
+public class Rectangle extends Shape{
 
 	private Double width;
 	private Double height;
 	
 	
-	public Retangle() {
+	public Rectangle() {
 	}
-	public Retangle(Color color, Double width, Double height) {
+	public Rectangle(Color color, Double width, Double height) {
 		super(color);
 		this.width = width;
 		this.height = height;
